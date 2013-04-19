@@ -1,0 +1,7 @@
+{
+  "name": "strlen",
+  "version": "0.0.1",
+  "repo": "nami-doc/strlen.c",
+  "license": "MIT",
+  "src": ["strlen.c", "strlen.h"]
+}
