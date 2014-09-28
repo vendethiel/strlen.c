@@ -4,7 +4,7 @@
 
 # Installation
 
-`$ cpm install nami-doc/strlen.c`
+`$ clib install nami-doc/strlen.c`
 
 ## Example
 
