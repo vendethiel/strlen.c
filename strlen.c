@@ -1,11 +1,12 @@
-int
-strlen(char *str)
+#include "strlen.h"
+size_t
+strlen(const char *str)
 {
   if (!str) {
     return 0;
   }
   
-  char *ptr = str;
+  const char *ptr = str;
   while (*str) {
     ++str;
   }

@@ -1,7 +1,9 @@
 #ifndef __STRLEN__
 #define __STRLEN__
 
-int
-strlen(char *str);
+#include <stddef.h>
+
+size_t
+strlen(const char *str);
 
 #endif /*__STRLEN__*/
